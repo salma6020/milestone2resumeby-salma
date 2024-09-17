@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Times New Roman',  Times, serif;
+    line-height: 10px;
+    padding: 0;
+    background-color: #a9cef3;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #021e28;
+
+}
+
+ 
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: auto;
+
+
+    fieldset{
+        border: 2px solid 3498dbd;
+        border-radius: 9px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: aliceblue;
+
+    }
+
+    legend {
+        font-weight: bold;
+        text-align: center;
+        color: #2c3e50;
+    }
+
+    label{
+        display: block;
+        margin-top: 05px;
+        color: #2c3e50;
+    }
+
+
+    input,textarea {
+        width:calc(100% - 05px);
+        padding: 8px;
+        margin-top: 4px;
+        border: 1px; color:#10021a;
+        border-radius: 5px;
+        box-sizing: border-box;
+
+    }
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1f4edd(46 ,217 ,237);
+    color: rgb(67, 162, 240);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 05px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+}
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
+button:hover {
+    background-color: #10021a;
+}
+button:focus {
+    outline: none;
+}
+button:active{
+    background-color: #021e28;
+}
+
+
+
